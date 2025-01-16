@@ -1,0 +1,94 @@
+.project-container {
+  width: 100%;
+  height: 90vh;
+  padding: 10px 0px;
+  background-color: var(--topic-color);
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title h1 {
+  color: var(--text-color);
+  transform: rotateZ(-90deg);
+  font-weight: bolder;
+  font-size: clamp(3rem, 10vw, 12vh);
+  text-align: center;
+}
+
+.img-card-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: scroll;
+}
+
+.scroll {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.img-card {
+  min-width: 70%;
+  background-color: var(--text-color);
+  height: 70%;
+  margin-right: -20px;
+  border-radius: 30px;
+  border: 8px solid var(--another-color);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.6;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.img-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.img-card p {
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+  margin-top: 20px;
+  color: var(--main-bg);
+}
+
+.img-card.zoomed {
+  transform: scale(0.9);
+  opacity: 1;
+}
+
+.img-card.neighbor {
+  transform: scale(0.4);
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .title h1 {
+    margin-bottom: 30px;
+    transform: rotateZ(0deg);
+    font-size: clamp(3rem, 17vw, 17vh);
+  }
+  .img-card-container {
+    margin-top: -100px;
+  }
+}

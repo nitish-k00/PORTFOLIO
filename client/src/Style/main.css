@@ -1,0 +1,17 @@
+:root {
+  --main-bg: #F5EFE7;
+  --topic-color: #D8C4B6;
+  --text-color: #3E5879;
+  --another-color: #213555;
+  --font-weight-bolder: bolder;
+  --font-weight-550: 550;
+}
+
+/* :root {
+  --main-bg: #fbf5e5;
+  --topic-color: #c890a7;
+  --text-color: #a35c7a;
+  --another-color: #212121;
+  --font-weight-bolder: bolder;
+  --font-weight-550: 550;
+} */
