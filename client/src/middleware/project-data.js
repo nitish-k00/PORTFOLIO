@@ -152,7 +152,7 @@ const projects = [
       "../Image/project/Leaflet/Leaflet-3.png",
     ],
     description:
-      "A React app that integrates the Leaflet map API to display a position pointer for location marking, custom pins for specific markers, and the user's current location on the map and it was developed for Blurgs.ai Company Accement.",
+      "A React app that integrates the Leaflet map API to display a position pointer for location marking, custom pins for specific markers, and the user's current location on the map and it was developed for Blurgs.ai Company assignment.",
     main: "no",
     skill: ["React", "Leaflet", "JavaScript", "MUI"],
   },
@@ -184,7 +184,7 @@ const projects = [
       "../Image/project/invoice/two-INVOICE.png",
     ],
     description:
-      "This project implements a full-stack invoice management system with MERN REST Framework for the backend and React for the frontend. The system allows creating, managing, and deleting invoices with multiple line items through a single API endpoint. It includes essential features such as pagination, search, and form validation and it was developed for Neurodynamis Company Assessment.",
+      "This project implements a full-stack invoice management system with MERN REST Framework for the backend and React for the frontend. The system allows creating, managing, and deleting invoices with multiple line items through a single API endpoint. It includes essential features such as pagination, search, and form validation and it was developed for Neurodynamis Company assignment.",
     main: "no",
     skill: ["MongoDB", "Express.js", "React", "Node.js", "MUI", "Router-dom,"],
   },
@@ -286,14 +286,14 @@ const projects = [
     title: "Tamil-Tradition",
     image: [
       "../Image/project/tamil-culture/tamil-1.png",
-      "../Image/project/tamil-culture/tamil-1.png",
-      "../Image/project/tamil-culture/tamil-1.png",
-      "../Image/project/tamil-culture/tamil-1.png",
-      "../Image/project/tamil-culture/tamil-1.png",
-      "../Image/project/tamil-culture/tamil-1.png",
+      "../Image/project/tamil-culture/tamil-2.png",
+      "../Image/project/tamil-culture/tamil-3.png",
+      "../Image/project/tamil-culture/tamil-4.png",
+      "../Image/project/tamil-culture/tamil-5.png",
+      "../Image/project/tamil-culture/tamil-6.png",
     ],
     description:
-      "This project is a simple website that showcases various aspects of Tamil tradition. The website is built using HTML, CSS, and JavaScript and it was developed for Inter Collage Hackathon.",
+      "The Tamil Tradition Showcase website is a creative initiative that brings the rich and vibrant Tamil culture to life in a digital format. Developed as part of an inter-college hackathon, this award-winning project, which secured 2nd prize, leverages HTML, CSS, and JavaScript to deliver an engaging and interactive user experience, enriched with captivating animations.",
     main: true,
     skill: ["HTML", "CSS", "JavaScript"],
   },
