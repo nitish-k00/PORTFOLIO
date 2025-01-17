@@ -152,7 +152,7 @@ const projects = [
       "../Image/project/Leaflet/Leaflet-3.png",
     ],
     description:
-      "A React app that integrates the Leaflet map API to display a position pointer for location marking, custom pins for specific markers, and the user's current location on the map.",
+      "A React app that integrates the Leaflet map API to display a position pointer for location marking, custom pins for specific markers, and the user's current location on the map and it was developed for Blurgs.ai Company Accement.",
     main: "no",
     skill: ["React", "Leaflet", "JavaScript", "MUI"],
   },
@@ -184,7 +184,7 @@ const projects = [
       "../Image/project/invoice/two-INVOICE.png",
     ],
     description:
-      "This project implements a full-stack invoice management system with MERN REST Framework for the backend and React for the frontend. The system allows creating, managing, and deleting invoices.",
+      "This project implements a full-stack invoice management system with MERN REST Framework for the backend and React for the frontend. The system allows creating, managing, and deleting invoices with multiple line items through a single API endpoint. It includes essential features such as pagination, search, and form validation and it was developed for Neurodynamis Company Assessment.",
     main: "no",
     skill: ["MongoDB", "Express.js", "React", "Node.js", "MUI", "Router-dom,"],
   },
@@ -217,7 +217,7 @@ const projects = [
     description:
       "This is a simple Tic Tac Toe game built using React. The game state is saved in the browser's local storage to allow you to resume the game even after closing the browser.",
     main: true,
-    skill: ["React", "JavaScript", "Bootstrap", "Redux"],
+    skill: ["React", "JavaScript", "Bootstrap"],
   },
   {
     id: 12,
@@ -293,7 +293,7 @@ const projects = [
       "../Image/project/tamil-culture/tamil-1.png",
     ],
     description:
-      "This project is a simple website that showcases various aspects of Tamil tradition. The website is built using HTML, CSS, and JavaScript.",
+      "This project is a simple website that showcases various aspects of Tamil tradition. The website is built using HTML, CSS, and JavaScript and it was developed for Inter Collage Hackathon.",
     main: true,
     skill: ["HTML", "CSS", "JavaScript"],
   },
