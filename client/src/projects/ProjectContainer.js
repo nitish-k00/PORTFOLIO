@@ -83,6 +83,7 @@ function ProjectContainer() {
                   borderTopLeftRadius: "8px",
                   borderTopRightRadius: "8px",
                 }}
+                imgProps={{ loading: "lazy" }}
               />
               <CardContent sx={{ padding: { xs: 1, md: 2 } }}>
                 <Typography
