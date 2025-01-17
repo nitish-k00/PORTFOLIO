@@ -40,6 +40,7 @@ function Description() {
         <img
           src={project.image[currentImageIndex]}
           alt={`Project ${project.title} - ${currentImageIndex + 1}`}
+          loading="lazy"
         />
         <div className="image-carousel-button">
           <button onClick={handlePrevImage}>Prev</button>
