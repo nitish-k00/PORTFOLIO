@@ -17,7 +17,7 @@ function Skills() {
                 key={index}
                 data-text={data.outof}
               >
-                <img src={`../Image/skills/${data.img}`} alt={data.img} />
+                <img src={`../Image/skills/${data.img}`} alt={data.img}  loading="lazy" />
               </div>
             ))}
             {Skill.map((data, index) => (
