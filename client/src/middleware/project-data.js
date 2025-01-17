@@ -138,7 +138,7 @@ const projects = [
     description:
       "A simple to-do list application built with React. Users can add, list, complete, edit and delete tasks from the list.",
     main: "no",
-    skill: ["React", "JavaScript"],
+    skill: ["React", "JavaScript", "Bootstrap", "Redux"],
   },
   {
     id: 7,
@@ -154,7 +154,7 @@ const projects = [
     description:
       "A React app that integrates the Leaflet map API to display a position pointer for location marking, custom pins for specific markers, and the user's current location on the map.",
     main: "no",
-    skill: ["React", "Leaflet", "JavaScript"],
+    skill: ["React", "Leaflet", "JavaScript", "MUI"],
   },
   {
     id: 8,
@@ -170,7 +170,7 @@ const projects = [
     description:
       "A fun and interactive React app developed for my friend to propose to his girlfriend. The app features a proposal interaction where the 'Accept' and 'Reject' buttons are dynamically resized based on the user's choice.",
     main: "no",
-    skill: ["React", "JavaScript"],
+    skill: ["React", "JavaScript", "css"],
   },
   {
     id: 9,
@@ -217,7 +217,7 @@ const projects = [
     description:
       "This is a simple Tic Tac Toe game built using React. The game state is saved in the browser's local storage to allow you to resume the game even after closing the browser.",
     main: true,
-    skill: ["React", "JavaScript"],
+    skill: ["React", "JavaScript", "Bootstrap", "Redux"],
   },
   {
     id: 12,
