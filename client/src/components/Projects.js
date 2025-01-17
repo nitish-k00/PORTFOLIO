@@ -62,7 +62,7 @@ function Projects() {
                   onClick={() => GoToDescription(data.id)}
                   style={{ cursor: "pointer" }}
                 >
-                  <img src={data.image[0]}></img>
+                  <img src={data.image[0]} alt={data.title}></img>
                   <p>{data.title}</p>
                 </div>
               );
