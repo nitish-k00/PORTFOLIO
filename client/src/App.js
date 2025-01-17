@@ -1,37 +1,41 @@
-import NavBar from "./components/NavBar";
-import Main from "./components/Main";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Stack from "./components/Stack";
-import Experience from "./components/Experience";
-import Footer from "./components/Footer";
-import Description from "./projects/Description";
-import ProjectContainer from "./projects/ProjectContainer";
-
+import { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// Lazy load components
+const NavBar = lazy(() => import("./components/NavBar"));
+const Main = lazy(() => import("./components/Main"));
+const Projects = lazy(() => import("./components/Projects"));
+const Skills = lazy(() => import("./components/Skills"));
+const Stack = lazy(() => import("./components/Stack"));
+const Experience = lazy(() => import("./components/Experience"));
+const Footer = lazy(() => import("./components/Footer"));
+const Description = lazy(() => import("./projects/Description"));
+const ProjectContainer = lazy(() => import("./projects/ProjectContainer"));
 
 function App() {
   return (
     <div>
       <Router>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <NavBar />
-                <Main />
-                <Projects />
-                <Skills />
-                <Stack />
-                <Experience />
-                <Footer />
-              </>
-            }
-          ></Route>
-          <Route path="/project/:id" element={<ProjectContainer />} />
-          <Route path="/description/:id" element={<Description />} />
-        </Routes>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <NavBar />
+                  <Main />
+                  <Projects />
+                  <Skills />
+                  <Stack />
+                  <Experience />
+                  <Footer />
+                </>
+              }
+            />
+            <Route path="/project/:id" element={<ProjectContainer />} />
+            <Route path="/description/:id" element={<Description />} />
+          </Routes>
+        </Suspense>
       </Router>
     </div>
   );
