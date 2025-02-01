@@ -297,6 +297,30 @@ const projects = [
     main: true,
     skill: ["HTML", "CSS", "JavaScript"],
   },
+  {
+    id: 15,
+    stack: "fullstack",
+    gitLink: "https://github.com/nitish-k00/QUIZ.git",
+    liveLink: "https://quiz-ctwf.onrender.com/",
+    title: "Quiz App",
+    image: [
+       "../Image/project/quiz/q1.png",
+       "../Image/project/quiz/q2.png",
+       "../Image/project/quiz/q3.png",
+       "../Image/project/quiz/q4.png",
+       "../Image/project/quiz/q5.png",
+       "../Image/project/quiz/q6.png",
+       "../Image/project/quiz/q7.png",
+       "../Image/project/quiz/q8.png",
+       "../Image/project/quiz/q9.png",
+       "../Image/project/quiz/q10.png",
+       "../Image/project/quiz/q11.png",
+    ],
+    description:
+      "The Quiz App is an interactive web app built with React and Express.js. It offers two quiz formats: Single Page Quiz with progress tracking and answer explanations, and Pagination Quiz that provides instant feedback on each question. The app also includes a custom backend server to fetch quiz data, solving CORS issues. This project highlights my skills in frontend and backend development and problem-solving.",
+    main: true,
+    skill: ["HTML", "CSS", "JavaScript", "React", "Express.js", "Axios", "API Integration", "CORS Handling"],
+  },
 ];
 
 export default projects;
