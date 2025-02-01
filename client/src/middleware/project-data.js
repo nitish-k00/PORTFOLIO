@@ -237,7 +237,7 @@ const projects = [
     ],
     description:
       "Using the MERN stack, develop a movie booking site featuring user authentication, simple functions, and an admin dashboard.",
-    main: true,
+    main: "no",
     skill: [
       "MongoDB",
       "Express.js",
