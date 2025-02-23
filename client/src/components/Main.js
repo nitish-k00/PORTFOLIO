@@ -33,7 +33,7 @@ function Main() {
           </div>
         </div>
         <div className="col image-container">
-          <img src="./Image/nitish.png" alt="Nitish"  loading="lazy" />
+          <img src="./Image/nitish.webp" alt="Nitish"  loading="lazy" />
         </div>
         <div className="col-1 col-sm-2 col-md-3 col-lg-4 nitish-section">
           <div className="m-3 ">
